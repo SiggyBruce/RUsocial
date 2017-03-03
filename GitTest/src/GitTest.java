@@ -18,8 +18,9 @@ public class GitTest {
 
         System.out.println("We are the..");
 
-        for(char letter: pack){
-            System.out.println(letter);
+        for(int pos = pack.length - 1; pos >= 0 pos--){
+            System.out.println(pack[pos]);
+
         }
 
     }
