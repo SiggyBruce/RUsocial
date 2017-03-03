@@ -17,7 +17,7 @@ public class GitTest {
 
         System.out.println("We are the..");
 
-        for(int pos = 0; pos < pack.length; pos++){
+        for(int pos = pack.length - 1; pos >= 0 pos--){
             System.out.println(pack[pos]);
         }
 
