@@ -7,8 +7,9 @@ public class GitTest {
 
         char[] pack = {'R','A','D','P', 'A','C','K'};
 
-        System.out.println("This is a Test");
-        System.out.println("This is a second test");
+        System.out.println("This is not a Test");
+
+        System.out.println("Tre is a cracka!");
 
         int check = 10;
         do{
@@ -18,9 +19,8 @@ public class GitTest {
 
         System.out.println("We are the..");
 
-        for(int pos = pack.length - 1; pos >= 0 pos--){
+        for(int pos = 1; pos < pack.length; pos++){
             System.out.println(pack[pos]);
-
         }
 
     }
